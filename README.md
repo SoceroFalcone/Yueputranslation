@@ -2,7 +2,7 @@
 
 粤语与普通话双向翻译的 Windows 桌面实验版，默认使用本地模型，可选联网识别与翻译，提供双栏字幕、本地会话历史和字幕导出。
 
-[查看更新日志](docs/CHANGELOG.md)
+[查看更新日志](docs/CHANGELOG.md) · [仓库、分支和发布说明](CONTRIBUTING.md#仓库分支和发布)
 
 **当前为开发预览。** Windows 已有包含私有 Python 和离线模型的本地 Inno Setup 安装包构建流程，见 [Windows 打包与验证说明](installer/windows/README.md)；尚未完成全新系统安装与公开发布验收。Android 可构建 ARM64 调试 APK，真机收音、性能和音质尚待验收，参见 [Android 开发说明](android/README.md)。Windows pro 复核与联网增强为实验功能。联网接口已接入并验证本地模拟服务及本地回退，真实百炼账户的权限、准确率和延迟仍需实测。
 
